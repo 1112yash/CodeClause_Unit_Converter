@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Unit Converter</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <h1>Unit Converter</h1>
+    <h2>Length converter</h2>
+    <div class="converter">
+        <input type="number" id="inputValue1">
+        <select id="inputUnit1">
+            <option value="cm">Centimeter (cm)</option>
+            <option value="inch">Inch (in)</option>
+            <option value="m">Meter (m)</option>
+        </select>
+        <button onclick="convert1()">Convert</button>
+        <select id="outputUnit1">
+            <option value="cm">Centimeter (cm)</option>
+            <option value="inch">Inch (in)</option>
+            <option value="m">Meter (m)</option>
+        </select>
+        <input type="text" id="outputValue1" disabled>
+    </div>
+
+    <!-- Area converter -->
+    <h2>Area converter</h2>
+    <div class="converter">
+        <input type="number" id="inputValue2">
+        <select id="inputUnit2">
+            <option value="sqm">Square Meter (sqm)</option>
+            <option value="sqkm">Square Kilometer (sqkm)</option>
+            <option value="sqft">Square Foot (sqft)</option>
+            <option value="sqmi">Square Mile (sqmi)</option>
+        </select>
+        <button onclick="convert2()">Convert</button>
+        <select id="outputUnit2">
+            <option value="sqm">Square Meter (sqm)</option>
+            <option value="sqkm">Square Kilometer (sqkm)</option>
+            <option value="sqft">Square Foot (sqft)</option>
+            <option value="sqmi">Square Mile (sqmi)</option>
+        </select>
+        <input type="text" id="outputValue2" disabled>
+    </div>
+
+    <!--Temperature converter  -->
+    <h2>Temperature converter</h2>
+    <div class="converter">
+        <input type="number" id="inputValue3">
+        <select id="inputUnit3">
+            <option value="c">Celsius (c)</option>
+            <option value="f">Fahrenheit (f)</option>
+            <option value="k">Kelvin (k)</option>
+        </select>
+        <button onclick="convert3()">Convert</button>
+        <select id="outputUnit3">
+            <option value="c">Celsius (c)</option>
+            <option value="f">Fahrenheit (f)</option>
+            <option value="k">Kelvin (k)</option>
+        </select>
+        <input type="text" id="outputValue3" disabled>
+    </div>
+
+    <!-- Time converter -->
+    <h2>Time converter</h2>
+    <div class="converter">
+        <input type="number" id="inputValue4">
+        <select id="inputUnit4">
+            <option value="seconds">Seconds (s)</option>
+            <option value="minutes">Minutes (min)</option>
+            <option value="hours">Hours (hr)</option>
+            <option value="days">Days (day)</option>
+        </select>
+        <button onclick="convert4()">Convert</button>
+        <select id="outputUnit4">
+            <option value="seconds">Seconds (s)</option>
+            <option value="minutes">Minutes (min)</option>
+            <option value="hours">Hours (hr)</option>
+            <option value="days">Days (day)</option>
+        </select>
+        <input type="text" id="outputValue4" disabled>
+    </div>
+
+    <!-- Volume converter -->
+    <h2>Volume converter</h2>
+    <div class="converter">
+        <input type="number" id="inputValue5">
+        <select id="inputUnit5">
+            <option value="liters">Liters (L)</option>
+            <option value="cubicmeters">Cubic Meters (m³)</option>
+            <option value="gallons">Gallons (gal)</option>
+            <option value="cubicfeet">Cubic Feet (ft³)</option>
+        </select>
+        <button onclick="convert5()">Convert</button>
+        <select id="outputUnit5">
+            <option value="liters">Liters (L)</option>
+            <option value="cubicmeters">Cubic Meters (m³)</option>
+            <option value="gallons">Gallons (gal)</option>
+            <option value="cubicfeet">Cubic Feet (ft³)</option>
+        </select>
+        <input type="text" id="outputValue5" disabled>
+    </div>
+
+    <!-- Weight converter -->
+    <h2>Weight converter</h2>
+    <div class="converter">
+        <input type="number" id="inputValue6">
+        <select id="inputUnit6">
+            <option value="grams">Grams (g)</option>
+            <option value="kilograms">Kilograms (kg)</option>
+            <option value="pounds">Pounds (lb)</option>
+            <option value="ounces">Ounces (oz)</option>
+        </select>
+        <button onclick="convert6()">Convert</button>
+        <select id="outputUnit6">
+            <option value="grams">Grams (g)</option>
+            <option value="kilograms">Kilograms (kg)</option>
+            <option value="pounds">Pounds (lb)</option>
+            <option value="ounces">Ounces (oz)</option>
+        </select>
+        <input type="text" id="outputValue6" disabled>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

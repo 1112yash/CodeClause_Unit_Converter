@@ -1,0 +1,41 @@
+body {
+    background-color: bisque;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.converter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.converter input[type="number"] {
+    width: 100px;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.converter select {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.converter button {
+    padding: 5px 10px;
+}
+
+.converter input[type="text"] {
+    width: 100px;
+    padding: 5px;
+}
